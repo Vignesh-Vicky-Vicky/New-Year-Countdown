@@ -5,7 +5,7 @@ let minutesEl = document.getElementById("minutesinput");
 let secondsEl = document.getElementById("secondsinput");
 
 function countdown() {
-    const newyear = new Date('1 Jan 2022');
+    const newyear = new Date('1 Jan 2023');
     const currenttime = new Date();
 
     const totalseconds = (newyear - currenttime) / 1000;
